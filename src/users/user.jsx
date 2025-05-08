@@ -21,7 +21,7 @@ const User = () => {
     <div className='container max-w-[1216px] m-auto mt-5'>
       <h1 className="text-2xl font-bold mb-4 text-center">Foydalanuvchi haqida</h1>
       <div className='flex justify-between items-end gap-10'>
-      <div className="w-full p-4 rounded shadow-xl flex items-center justify-between gap-12">
+      <div className="w-full p-4 rounded flex items-center justify-between gap-12">
         <div>
         <img src={user.image} alt={user.firstName} className="w-60 object-cover rounded-full mb-4" />
         </div>
